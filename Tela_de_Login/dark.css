@@ -1,0 +1,74 @@
+
+.dark#log{
+    background-color: rgb(255, 255, 255);
+    animation: light-to-dark-background 0.3s ease-in-out;
+}
+
+.dark#log #log2{
+    background-color: rgb(247, 247, 247);
+    animation: light-to-dark-background 0.3s ease-in-out;
+
+}
+
+.dark#log #hi{
+    background-color: rgba(214, 214, 214, 0.646);
+    animation: light-to-dark-background 0.3s ease-in-out;
+
+}
+
+.dark#log #logc{
+    background-color: #ffffff;
+    animation: light-to-dark-background 0.3s ease-in-out;
+}
+
+
+.dark#log #logc h1{
+    color: #201b2c;
+}
+
+
+.dark#log #logc label{
+    color: #201b2c;
+    
+}
+
+
+.dark#log #imp input {
+    background: rgba(0, 0, 0, 0.262);
+}
+
+.dark#log #imp input::placeholder {
+    color: #00000095;
+}
+    
+
+.dark#log button {
+    background: rgba(71, 246, 255, 0.616);
+    box-shadow: 0px 10px 40px -12px rgb(0, 0, 0);
+    color: black;
+}
+
+
+.dark#log #later h1 {
+    color: black;
+}
+    
+@keyframes dark-to-light-background {
+    0% {
+        background-color:rgb(255, 255, 255);
+    }
+    100.0% {
+        background-color:var black;
+    }
+}
+
+@keyframes light-to-dark-background {
+    100.0% {
+        background-color:rgb(255, 255, 255); 
+    }
+
+    0% {
+        background-color:rgb(0, 0, 0);
+    }
+}
+
